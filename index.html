@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />  
+        <link rel="stylesheet" href="css.css"> 
+        <link rel="stylesheet" href="nnn.css">
+
+        <title>Document</title>
+      </head>
+<body>
+  <nav class="bg-white border-gray-200 dark:bg-gray-900 w-full shadow-xl">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://flowbite.com/" class="flex items-center">
+            <i class="fa-spin"><img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mx-1.5 bg-slate-100 rounded-full" alt="Flowbite Logo" /></i>
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">DASHBOARD</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">SETTING</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">T&C'S</a>
+              </li>
+              <li>
+                <a href="./privacy.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">PRIVACY</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACT</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="popup" id="container">
+        <form >
+             <div class="trr">
+                 <i class="fa-regular fa-user"></i><input type="text" name="" id="" placeholder="Enter Name">
+             </div>
+             <div class="trr">
+                 <i class="fa-regular fa-envelope"></i></i><input type="email" name="" id="" placeholder="Enter Email">
+             </div>
+             <div class="trr">
+                 <i class="fa-solid fa-phone"></i></i><input type="number" name="" id="" placeholder="Phone Number">
+             </div>
+             <div class="trr">
+                 <i class="fa-regular fa-calendar-days"></i><input type="datetime" name="" id="" placeholder="Date Of Birth">
+             </div>
+             <div class="trr">
+              <i class="fa-solid fa-droplet" style="color: #f00528;"></i><input type="text" name="" id="" placeholder="Blood Group">
+             </div>
+               <div id="areabtn">
+                <button>Edit</button>
+                <button>Save</button>
+                <button id="close">Cancel</button>
+           </div>
+        </form>
+     </div>
+
+
+
+
+
+      <div id="hero"  class="dark:bg-slate-800 w-full mx-auto max-w-screen-xl">
+        <div id="row" class="mx-auto flex flex-col w-[90%] md:flex-row md:justify-between">
+             <div id="column1" class="w-full h-1/3 flex flex-col mt-4 justify-center	items-center rounded-xl md:ml-auto md:mr-2">
+                <div class="profile ">
+                    <i class="fa-solid fa-user-pen mx-auto h-16 w-16 bg-white  justify-center items-center rounded-full text-xl   flex" ></i>
+                    <div class="edit"><i class="fa-solid fa-camera"></i></div>
+                    <h1 class="my-2.5 mx-0 font-bold">User Name</h1>
+                  </div>
+                <div id="table" class="items-center flex justify-center bg-slate-100 rounded-md w-11/12 h-72 py-4">
+                    <table class="border-collapse w-[95%]">
+            
+                      <tr class="bg-slate-100 text-left p-2 m-px font-semibold">
+                        <td class="text-left p-2 m-px font-semibold">Username</td>
+                        <td class="text-left p-2 m-px font-semibold">admin</td>
+                     
+                      </tr>
+                      <tr class="bg-slate-300 text-left p-2 m-px font-semibold">
+                        <td class="text-left p-2 m-px font-semibold">Email</td>
+                        <td class="text-left p-2 m-px font-semibold">undefined</td>
+                    
+                      </tr >
+                      
+                      <tr class="bg-slate-100 text-left p-2 m-px font-semibold">
+                        <td class="text-left p-2 m-px font-semibold">Date of Birth</td>
+                        <td class="text-left p-2 m-px font-semibold">Update DOB</td>
+                    
+                      </tr>
+                      <tr class="bg-slate-300 text-left p-2 m-px font-semibold">
+                        <td class="text-left p-2 m-px font-semibold">Blood group</td>
+                        <td class="text-left p-2 m-px font-semibold">loading</td>
+                        
+                      </tr>
+                      <tr class="bg-slate-100 text-left p-2 m-px font-semibold">
+                        <td class="text-left p-2 m-px font-semibold">Total Friend</td>
+                        <td class="text-left p-2 m-px font-semibold">loading</td>
+                      
+                      </tr>
+                      <tr class="bg-slate-300 text-left p-2 m-px font-semibold">
+                        <td class="text-left p-2 m-px font-semibold">Number</td>
+                        <td class="text-left p-2 m-px font-semibold">undefined</td>
+                        
+                      </tr>
+                      
+                    </table>
+                    
+                  </div>
+                  <button id="show-login" class="bg-white m-2 rounded-3xl font-bold">Update Profile</button>
+            </div>
+            
+   
+
+            <div id="column2" class="w-full h-56 flex flex-col mt-4 rounded-xl md:ml-2 md:mr-auto md:justify-between md:h-48">
+              <div id="btn-are" class="md:flex md:flex-row md:justify-center md:w-[95%]">
+                <div class="flex flex-row justify-between">
+                  <button class="bg-white w-full m-2 font-bold rounded-3xl md:bg-white md:w-auto md:m-1 lg:bg-white lg:w-auto lg:m-1 lg:rounded-3xl"><i class="fa-solid fa-user-plus"></i> Add</button>
+                  <button class="bg-white w-full m-2 font-bold rounded-3xl md:bg-white md:w-auto md:m-1  lg:bg-white lg:w-auto lg:m-1 lg:rounded-3xl"> <i class="fa-solid fa-square-check"></i> Select</button>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <button class="bg-white w-full m-2 font-bold rounded-3xl md:bg-white md:w-auto md:m-1  lg:bg-white lg:w-auto lg:m-1 lg:rounded-3xl"><i class="fa-solid fa-list-check"></i> Select All</button>
+                   <button class="bg-white w-full m-2 font-bold rounded-3xl md:bg-white md:w-auto md:m-1  lg:bg-white lg:w-auto lg:m-1 lg:rounded-3xl"><i class="fa-solid fa-rotate-right"></i> Refresh</button>
+                  </div> 
+              </div>
+              <input type="search" name="" id="" placeholder="Search Friends" class="rounded-3xl my-auto mx-o">
+            </div>
+        </div>
+
+
+        <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800 relative mb-0">
+            <div class="w-full mx-auto max-w-screen-2xl p-4 md:flex md:items-center md:justify-between">
+              <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+            </div>
+          </footer>
+
+
+      </div>
+      <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+      <script src="./script.js"></script>
+
+</body>
+</html>
